@@ -1,9 +1,12 @@
 blog : 
     - images *
     - name hotel
-    search
-        - property type 
-        - Location
+property Type:
+    - name
+    - image
+search
+    - category
+    - Location
 property:
      - category
      - price
