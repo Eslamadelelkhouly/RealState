@@ -1,36 +1,32 @@
-Property:
-    - name
-    - main image
+blog : 
     - images *
-    - price 
-    - description
-    - place  *
-    - category *
-
-
-Website:
-    - address
-    - Phone
-    - email
-    - facebook
-    - yotube
-    - linkedln
-    - images
-    - title Home
-    - description Home
-    - keyword search 
-    - category
-    - Address
-
-
-Contact:
-    - Description
-    - Phone
-
+    - name hotel
+    search
+        - property type 
+        - Location
+property:
+     - category
+     - price
+     - image 
+     - name
+     - address
 Property Agents:
     - name
     - image
-    - facebookmail
+    - fa-link
+    - insta-link
+    - twitt-link
+
+accounts:
+    - name
+    dscription
+
+Contact:
+    - Adress
+    - Phone
     - email
-    - twitteremail
+    - fa-link
+    - in-link
+    - yo-link
+    - linked-link
 
