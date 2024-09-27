@@ -19,7 +19,7 @@ Property Agents:
 
 accounts:
     - name
-    dscription
+    - dscription
 
 Contact:
     - Adress
