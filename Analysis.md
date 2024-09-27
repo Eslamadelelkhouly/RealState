@@ -13,6 +13,9 @@ property:
      - image 
      - name
      - address
+     - area
+     - bed
+     - bath
 Property Agents:
     - name
     - image

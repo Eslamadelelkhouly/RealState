@@ -5,7 +5,7 @@ class Blog(models.Model):
     image = models.ImageField(upload_to='bloimage/')
     hotelname = models.CharField(max_length=50)
 
-CATEGORY_CHOICE(
+CATEGORY_CHOICE = (
     ('AT','Apartment'),
     ('VA','Vila'),
     ('HE','Home'),
