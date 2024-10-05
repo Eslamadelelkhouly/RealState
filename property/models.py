@@ -14,6 +14,7 @@ CATEGORY_CHOICE = (
 
 class Property(models.Model):
     category = models.CharField(choices=CATEGORY_CHOICE , max_length=50)
+    name = models.CharField(max_length=50)
     price = models.IntegerField()
     image = models.ImageField(upload_to="imagehotel/")
     address = models.CharField(max_length=50)
